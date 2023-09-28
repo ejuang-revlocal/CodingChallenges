@@ -56,7 +56,7 @@ while len(deck) > 0:
     player2Hand.append(deck.pop())
 
 #Game Setup
-print("Let the game run itself? y/n")
+print("Enter 'y' to let the game run itself to the end")
 userInput = input()
 if userInput == "y":
     gameAutoRun = True
